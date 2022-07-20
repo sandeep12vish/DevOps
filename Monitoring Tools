@@ -1,0 +1,65 @@
+Grafana
+
+Grafana is a multi-platform open source analytics and interactive visualization web application. 
+It provides charts, graphs, and alerts for the web when connected to supported data sources. 
+A licensed Grafana Enterprise version with additional capabilities is also available as a self-hosted installation or an account on the Grafana Labs cloud service.[2] 
+It is expandable through a plug-in system. End users can create complex monitoring dashboards[3] using interactive query builders. Grafana is divided into a front end and back end, written in TypeScript and Go, respectively.[4]
+
+Continuos monitoring Phase
+
+- System errors such as
+	Low memory
+	server not reachable
+- Roots Cause is also determine by continuous monitoring
+- Network issue  also resolved in this phase
+
+Grafana will help us to visualize the real time data in an application and working of data in real-time
+
+Why need of continuous monitoring
+	- Better network visibility & Transperancy
+	- Facilitates Rapid Response
+	- Minimizes System Down time
+	- Assists with Healthy Business Performance
+
+What is continuous monitoring ?
+	- It is an automated process by which one can observe and detect compliance issues and security threats during each phase of the DevOps pipeline
+
+Continuous Moinitoring Tools in DevOps Pipeline
+	1 Monitoring Tools
+		- Sensu  (flexible and scable telemetry and service health checking for monitoring servers, containers, services, applications, functions and connected devices)
+		- Nagios (It is lagacy monitoring tool  that introduced monitoring practices to a generation of operators)
+		- Promethous (Relied on pull method collect information with built in database)
+	
+	2 Configuration Management Tools
+		- Ansible (written in Python agent less) - iperative configuration approach 
+		- Chef (Wrtten in Ruby & Erland, )
+		- Puppet - reliles on declarative configuration management approach 
+	
+	3 Alerting Tools
+		- PagerDuty (Oncall management platform with add-ons analyytics event, intelligents and automated incident response)
+		- Sewrvicenow (It utilizes automated workflows for ITSM as well as customer service and business process)
+		- Slack () 
+	
+	4 Metric Storage 
+		- influxdb  (Is a time series database that's suited for long term data storage)
+		- splunk    ( Uses serach engine database model to store and query data )
+		- aws       ( Support a wide range of storage purposes including relational and non-relational databses )
+	
+	5 Visualization Tools
+		- Grafana (data stores including graphite influxdb and elasticsearch )
+
+What is Grafana?
+	- Grafana is a multi-platform open source analytics and intractive visualization web application.
+		It provides:
+			- Charts
+			- Graphs 
+			- Alerts
+	- It is expandles through a plugin system. IT allows to query, visualize, alert on and understand your metrics no matter where they are stored. 
+	- Create, Explore and Share dashboards with your team and foaster a data driven culture 
+	- Worls most popular technology which is used to compose observaility dashboards with everything from prometheus and graphite metrics to logs and application data to power plants and beehives  		
+
+Features of Grafana 
+	- Visualize (Grafana has a plethora of visualization options to help you understand your data)
+	- Alerts (Seamlessly defines alerts where it makes sense - while you're in the data)
+	- Unify ( Grafana supports dozens of databses, natively, Mix them together in the same Dashboards)
+	
