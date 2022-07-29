@@ -1,11 +1,11 @@
-Grafana
+** Grafana **
 
-Grafana is a multi-platform open source analytics and interactive visualization web application. 
-It provides charts, graphs, and alerts for the web when connected to supported data sources. 
-A licensed Grafana Enterprise version with additional capabilities is also available as a self-hosted installation or an account on the Grafana Labs cloud service.[2] 
-It is expandable through a plug-in system. End users can create complex monitoring dashboards[3] using interactive query builders. Grafana is divided into a front end and back end, written in TypeScript and Go, respectively.[4]
+- Grafana is a multi-platform open source analytics and interactive visualization web application. 
+- It provides charts, graphs, and alerts for the web when connected to supported data sources. 
+- A licensed Grafana Enterprise version with additional capabilities is also available as a self-hosted installation or an account on the Grafana Labs cloud service.[2] 
+- It is expandable through a plug-in system. End users can create complex monitoring dashboards[3] using interactive query builders. Grafana is divided into a front end and back end, written in TypeScript and Go, respectively.[4]
 
-Continuos monitoring Phase
+#Continuos monitoring Phase
 
 - System errors such as
 	Low memory
@@ -15,7 +15,7 @@ Continuos monitoring Phase
 
 Grafana will help us to visualize the real time data in an application and working of data in real-time
 
-Why need of continuous monitoring
+#Why need of continuous monitoring?
 	- Better network visibility & Transperancy
 	- Facilitates Rapid Response
 	- Minimizes System Down time
