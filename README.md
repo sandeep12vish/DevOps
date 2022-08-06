@@ -123,7 +123,7 @@
 - Cleanup Policies
 - Scheduled Tasks
 
-## 6. Containers with Docker(Week-7&8)
+## 7. Containers with Docker(Week-7&8)
 - What is a Container?
 - Docker Components and architecture explained
 - Docker vs. Virtual Machine
@@ -138,239 +138,246 @@
 - Docker Volumes - Persist data in Docker
 - Volumes Demo - Configure persistence for our demo project
 - Docker Best Practices
-- Docker & Nexus
+### 7.1 Docker & Nexus
 - Create Docker Images Repository on Nexus
 - Push/Pull Docker Image from/to Nexus Repository Manager
 - Install Nexus with Docker
 - Configure insecure repositories in Docker Engine
  
-Build Automation - CI/CD with Jenkins(Week-9&10)
-What is Build Automation? What is Jenkins?
-Install Jenkins on cloud server (Docker vs Server install)
-Jenkins plugins
-Installing build tools in Jenkins
-Jenkins Basics Demo
-Create Freestyle Job
-Configure Git Repository
-Run Tests and Build Java Application
-Docker in Jenkins
-Make Docker commands available in Jenkins
-Build Docker Image
-Push to DockerHub Repo
-Push to Nexus Repo
-Jenkins Pipeline (Use Cases)
-Create a simple Pipeline Job
-Full Jenkinsfile Syntax Demo
-Create a full Pipeline Job
-Build Java App
-Build Docker Image
-Push to private DockerHub
-Create a Multi-Branch Pipeline Job
-Credentials in Jenkins
-Jenkins Shared Library
-WebHooks - Trigger Jenkins Jobs automatically
-Versioning Application in Continuous Deployment
-Concepts of Versioning in Software Development
-Increment Application version from Jenkins Pipeline
-Set new Docker Image version from Jenkins Pipeline
-Commit Version Bump from Jenkins Pipeline
-AWS Services(Week-11&12)
-	Introduction to Amazon Web Services
-Identity & Access Management (IAM) - User, Groups, and Permissions
-Regions and Availability Zones
-Virtual Private Cloud (VPC) - Your Private Network
-Subnets
-Security Groups
-Internet Gateway
-Route Table
-CIDR Blocks
-Introduction to Elastic Compute Cloud (EC2)
-Create an EC2 Instance
-Run Web application on EC2 using Docker
-AWS Command Line Tool
-Install and configure AWS CLI
-Create EC2
-Create Security Group
-Create key-pair
-Create IAM user with permissions
-AWS & Jenkins - Continuous Deployment with Jenkins to AWS EC2
-Automate deploying from Jenkins Pipeline to EC2 Instance
-using docker run
-using docker-compose
-Real-life example of dynamically setting new image version in docker-compose
-SSH agent plugin and SSH credential type in Jenkins
-10. Container Orchestration with Kubernetes(Week-13&14)
+## 8. Build Automation - CI/CD with Jenkins(Week-9&10)
+- What is Build Automation? What is Jenkins?
+- Install Jenkins on cloud server (Docker vs Server install)
+- Jenkins plugins
+- Installing build tools in Jenkins
+- Jenkins Basics Demo
+	- Create Freestyle Job
+	- Configure Git Repository
+	- Run Tests and Build Java Application
+- Docker in Jenkins
+	- Make Docker commands available in Jenkins
+	- Build Docker Image
+	- Push to DockerHub Repo
+	- Push to Nexus Repo
+- Jenkins Pipeline (Use Cases)
+- Create a simple Pipeline Job
+- Full Jenkinsfile Syntax Demo
+- Create a full Pipeline Job
+	- Build Java App
+	- Build Docker Image
+	- Push to private DockerHub
+- Create a Multi-Branch Pipeline Job
+- Credentials in Jenkins
+- Jenkins Shared Library
+- WebHooks - Trigger Jenkins Jobs automatically
+- Versioning Application in Continuous Deployment
+	- Concepts of Versioning in Software Development
+	- Increment Application version from Jenkins Pipeline
+	- Set new Docker Image version from Jenkins Pipeline
+	- Commit Version Bump from Jenkins Pipeline
 
-Introduction to Kubernetes
-Understand the main Kubernetes Components
-Node, Pod, Service, Ingress, ConfigMap, Secret, Volume, Deployment, StatefulSet
-Kubernetes Architecture
-Minikube and kubectl - Local Setup
-Main Kubectl Commands - K8s CLI
-Create and debug Pod in a Minicluster
-Kubernetes YAML Configuration File
-Create and Configure Deployment and Service Component
-Demo Project: MongoDB and MongoExpress
-Organizing your components with K8s Namespaces
-Kubernetes Service Types
-Making your App accessible from outside with Kubernetes Ingress
-Persisting Data in Kubernetes with Volumes
-Persistent Volume
-Persistent Volume Claim
-Storage Class
-ConfigMap and Secret Kubernetes Volume Types
-Deploying Stateful Apps with StatefulSet
-Deploying Kubernetes cluster on a Managed Kubernetes Service (K8s on Cloud)
-Helm - Package Manager of Kubernetes
-Helm Demo: Install a Stateful Application on Kubernetes using Helm
-Demo: Deploy App from Private Docker Registry
-Extending the Kubernetes API with Operator
-Prometheus Operator Demo with Helm: Setup Prometheus Monitoring in K8s
-Secure your cluster - Authorization with Role Based Access Control (RBAC)
- 
-Microservices in Kubernetes
-Introduction to Microservices
-Demo project: Deploy Microservices Application
-Demo project: Create common Helm Chart for Microservices
-Demo project: Deploy Microservices with helmfile
-Production & Security Best Practices
-11. Kubernetes on AWS - EKS (Week-15&16)
-AWS & Kubernetes
-AWS Container Services: Overview (ECR, ECS, EKS, Fargate)
-Create an EKS cluster with AWS Management Console (UI)
-Create cluster VPC
-Create cluster Roles
-Use Cloudformation Stack
-EC2 Worker Nodes
-Fargate Profile
-Configure Austoscaler
-Configure kube context to connect to the cluster
-Create an EKS cluster with eksctl (the easy way)
- 
- 
-AWS & Kubernetes & Jenkins & Docker - CI/CD
-Configure kubectl inside Jenkins
-Configure kube context in Jenkins
-Install aws-iam-authenticator in Jenkins
-Complete Jenkins Pipeline - Deploy to EKS - using kubectl
-Complete Jenkins Pipeline - Build and push docker image to ECR and deploy to EKS
-Complete Jenkins Pipeline - Deploy to LKE using Kubernetes CLI plugin and kubeconfig file
+## 9. AWS Services(Week-11&12)
+- Introduction to Amazon Web Services
+- Identity & Access Management (IAM) - User, Groups, and Permissions
+- Regions and Availability Zones
+- Virtual Private Cloud (VPC) - Your Private Network
+	- Subnets
+	- Security Groups
+	- Internet Gateway
+	- Route Table
+	- CIDR Blocks
+- Introduction to Elastic Compute Cloud (EC2)
+	- Create an EC2 Instance
+	- Run Web application on EC2 using Docker
+- AWS Command Line Tool
+	- Install and configure AWS CLI
+	- Create EC2
+	- Create Security Group
+	- Create key-pair
+## 9.1 Create IAM user with permissions
+- AWS & Jenkins - Continuous Deployment with Jenkins to AWS EC2
+	- Automate deploying from Jenkins Pipeline to EC2 Instance
+	- using docker run
+- using docker-compose
+- Real-life example of dynamically setting new image version in docker-compose
+- SSH agent plugin and SSH credential type in Jenkins
+
+## 10. Container Orchestration with Kubernetes(Week-13&14)
+- Introduction to Kubernetes
+- Understand the main Kubernetes Components
+	- Node:  
+	- Pod: 
+	- Service: 
+	- Ingress: 
+	- ConfigMap: 
+	- Secret: 
+	- Volume: 
+	- Deployment: 
+	- StatefulSet
+- Kubernetes Architecture
+- Minikube and kubectl - Local Setup
+- Main Kubectl Commands - K8s CLI
+	- Create and debug Pod in a Minicluster
+- Kubernetes YAML Configuration File
+	- Create and Configure Deployment and Service Component
+- Demo Project: MongoDB and MongoExpress
+- Organizing your components with K8s Namespaces
+- Kubernetes Service Types
+- Making your App accessible from outside with Kubernetes Ingress
+- Persisting Data in Kubernetes with Volumes
+	- Persistent Volume
+	- Persistent Volume Claim
+	- Storage Class
+- ConfigMap and Secret Kubernetes Volume Types
+- Deploying Stateful Apps with StatefulSet
+- Deploying Kubernetes cluster on a Managed Kubernetes Service (K8s on Cloud)
+- Helm - Package Manager of Kubernetes
+- Helm Demo: Install a Stateful Application on Kubernetes using Helm
+- Demo: Deploy App from Private Docker Registry
+- Extending the Kubernetes API with Operator
+- Prometheus Operator Demo with Helm: Setup Prometheus Monitoring in K8s
+- Secure your cluster - Authorization with Role Based Access Control (RBAC)
+
+### 10.1 Microservices in Kubernetes
+- Introduction to Microservices
+- Demo project: Deploy Microservices Application
+- Demo project: Create common Helm Chart for Microservices
+- Demo project: Deploy Microservices with helmfile
+- Production & Security Best Practices
+
+## 11. Kubernetes on AWS - EKS (Week-15&16)
+- AWS & Kubernetes
+- AWS Container Services: Overview (ECR, ECS, EKS, Fargate)
+	- Create an EKS cluster with AWS Management Console (UI)
+	- Create cluster VPC
+	- Create cluster Roles
+	- Use Cloudformation Stack
+	- EC2 Worker Nodes
+	- Fargate Profile
+	- Configure Austoscaler
+	- Configure kube context to connect to the cluster
+- Create an EKS cluster with eksctl (the easy way)
+## 11.1 AWS & Kubernetes & Jenkins & Docker - CI/CD
+- Configure kubectl inside Jenkins
+- Configure kube context in Jenkins
+- Install aws-iam-authenticator in Jenkins
+- Complete Jenkins Pipeline - Deploy to EKS - using kubectl
+- Complete Jenkins Pipeline - Build and push docker image to ECR and deploy to EKS
+- Complete Jenkins Pipeline - Deploy to LKE using Kubernetes CLI plugin and kubeconfig file
 	
-12. Infrastructure as Code with Terraform(Week-17&18)
-AWS & Kubernetes
-AWS Container Services: Overview (ECR, ECS, EKS, Fargate)
-Create an EKS cluster with AWS Management Console (UI)
-Create cluster VPC
-Create cluster Roles
-Use Cloudformation Stack
-EC2 Worker Nodes
-Fargate Profile
-Configure Austoscaler
-Configure kube context to connect to the cluster
-Create an EKS cluster with eksctl (the easy way)
- 
-AWS & Kubernetes & Jenkins & Docker - CI/CD
-Configure kubectl inside Jenkins
-Configure kube context in Jenkins
-Install aws-iam-authenticator in Jenkins
-Complete Jenkins Pipeline - Deploy to EKS - using kubectl
-Complete Jenkins Pipeline - Build and push docker image to ECR and deploy to EKS
-Complete Jenkins Pipeline - Deploy to LKE using Kubernetes CLI plugin and kubeconfig file
-13. Programming with Python (Week-19)
-Introduction to Python: What is Python and why to learn Python as a DevOps engineer?
-Installation and Setup Local Development Environment
-Write our first Python program
-Python IDE vs simple File Editor
-Strings and Number Data Types
-Variables
-Encapsulate Logic with Functions
-Accepting User Input
-Conditionals (if / else) and Boolean Data Type
-Error Handling with Try / Except
-While Loops
-Lists and For Loops
-Comments in Python
-Sets
-Built-In Functions
-Dictionary Data Type
-Modularize your project with Modules
-Project: Countdown App
-Packages, PyPI and pip
-Project: Automation with Python (Working with Spreadsheets)
-Object Oriented Programming: Classes and Objects
-Project: API Request to GitLab
+## 12. Infrastructure as Code with Terraform(Week-17&18)
+- AWS & Kubernetes
+- AWS Container Services: Overview (ECR, ECS, EKS, Fargate)
+	- Create an EKS cluster with AWS Management Console (UI)
+	- Create cluster VPC
+	- Create cluster Roles
+	- Use Cloudformation Stack
+	- EC2 Worker Nodes
+	- Fargate Profile
+	- Configure Austoscaler
+	- Configure kube context to connect to the cluster
+- Create an EKS cluster with eksctl (the easy way)
+## 12.1. AWS & Kubernetes & Jenkins & Docker - CI/CD
+- Configure kubectl inside Jenkins
+- Configure kube context in Jenkins
+- Install aws-iam-authenticator in Jenkins
+- Complete Jenkins Pipeline - Deploy to EKS - using kubectl
+- Complete Jenkins Pipeline - Build and push docker image to ECR and deploy to EKS
+- Complete Jenkins Pipeline - Deploy to LKE using Kubernetes CLI plugin and kubeconfig file
 
-14. Automation with Python (Week-20&21)
-After having learnt the programming basics and now being able to write programs, you will learn how to use this Python knowledge for DevOps use cases.
-Cloud Automation - AWS & Python
-Introduction to Boto (AWS Library for Python)
-Install Boto3 and connect to AWS
-Getting familiar with Boto Library
-Automate creating VPC and Subnets
-Terraform vs Python - understand the differences and when to use which tool
-Automation Tasks around EC2 Instance:
-Health Check: Automatically check the status of EC2 Instances
-Scheduler: Write a scheduled task that executes the status check in a specified interval automatically
-Configure Server: Automate adding tags to EC2 Instances with the environment label
-Automate getting cluster information from all EKS clusters in your AWS account
-Automation Tasks around Data Backup & Restore
-Backup EC2 Instances: Automate creating snapshots of EC2 Volumes
-Cleanup Task: Write a cleanup script to automate cleanup of old EC2 snapshots
-Restore EC2 Volume: Write a program to restore an EC2 volume with the backup snapshot and attach it to the EC2 Instance
-Automation Tasks around Website Monitoring (without AWS)
-Monitoring: Write a scheduled automation program that monitors the website's health
-E-Mail Notification: Configure python program to automatically send an email every time the website or server is down
-Recover: Restart the application and reboot the underlying remote server
+## 13. Programming with Python (Week-19)
+- Introduction to Python: What is Python and why to learn Python as a DevOps engineer?
+- Installation and Setup Local Development Environment
+- Write our first Python program
+- Python IDE vs simple File Editor
+- Strings and Number Data Types
+- Variables
+- Encapsulate Logic with Functions
+- Accepting User Input
+- Conditionals (if / else) and Boolean Data Type
+- Error Handling with Try / Except
+- While Loops
+- Lists and For Loops
+- Comments in Python
+- Sets
+- Built-In Functions
+- Dictionary Data Type
+- Modularize your project with Modules
+- Project: Countdown App
+- Packages, PyPI and pip
+- Project: Automation with Python (Working with Spreadsheets)
+- Object Oriented Programming: Classes and Objects
+- Project: API Request to GitLab
 
-15. Configuration Management with Ansible(Week-22&23)
-As a continuation of the projects in all the previous modules, we will use Ansible to further automate and optimize DevOps processes. Ansible, next to Terraform is one of the most popular infrastructure as code and configuration management tools currently used in IT projects.
-Core Concepts and Syntax of Ansible
-Introduction to Ansible
-Install & Configure Ansible
-Setup Managed Server to configure with Ansible
-Ansible Inventory
-Ansible ad-hoc Commands
-Configure AWS EC2 server with Ansible
-Managing Host Key Checking and SSH keys
-Ansible Tasks, Play & Playbook
-Ansible Modules
-Ansible Collections & Ansible Galaxy
-Ansible Variables - to make your Playbook customizable
-Troubleshooting in Ansible
-Conditionals
-Privilege Escalation
-Ansible Configuration - Default Inventory File
-Learn most common Ansible modules with hands-on demos:
-Project: Deploy Nodejs Application
-Project: Deploy Nexus
-Configure servers with different Linux distributions on AWS and Digital Ocean platforms
- 
-In these projects, we will install tools on a server, configure applications, work with a file system, move static files between machines, etc.
- 
-Essentially you will learn how to map and translate shell scripts and   commands into Ansible Playbooks to automate various common tasks in general.
-More Advanced Topics & Integrations with other Technologies
-Dynamic Inventory for EC2 Servers
-Ansible Roles - to make your Ansible content more reusable and modular for better maintenance
-Project: Ansible & Terraform
-Project: Run Docker applications
-Project: Deploying Applications in Kubernetes
-Project: Run Ansible from Jenkins Pipeline
-So, you don't learn Ansible just as a standalone tool in this bootcamp, but rather integrated in different technologies, like Docker, K8s, Terraform, Jenkins, AWS and so on, in various real world use cases, as it builds on the previous modules in the bootcamp!
-16. Monitoring with Prometheus(Week-24&25)
-Introduction to Monitoring with Prometheus
-Install Prometheus Stack in Kubernetes
-Data Visualization with Prometheus UI
-Introduction to Grafana
-Alert Rules in Prometheus
-Create own Alert Rules
-Introduction to Alertmanager
-Configure Alertmanager with Email Receiver
-Trigger Alerts for Email Receiver
-Monitor Third-Party Applications
-Deploy Redis Exporter
-Alert Rules & Grafana Dashboard for Redis
-Collect & Expose Metrics with Prometheus Client Library
-Scrape Own Application Metrics & Configure Own Grafana Dashboard
+## 14. Automation with Python (Week-20&21)
+### After having learnt the programming basics and now being able to write programs, you will learn how to use this Python knowledge for DevOps use cases.
+## 14.1 Cloud Automation - AWS & Python
+- Introduction to Boto (AWS Library for Python)
+- Install Boto3 and connect to AWS
+- Getting familiar with Boto Library
+- Automate creating VPC and Subnets
+- Terraform vs Python - understand the differences and when to use which tool
+## 14.2 Automation Tasks around EC2 Instance:
+- Health Check: Automatically check the status of EC2 Instances
+- Scheduler: Write a scheduled task that executes the status check in a specified interval automatically
+- Configure Server: Automate adding tags to EC2 Instances with the environment label
+- Automate getting cluster information from all EKS clusters in your AWS account
+## 14.2 Automation Tasks around Data Backup & Restore
+- Backup EC2 Instances: Automate creating snapshots of EC2 Volumes
+- Cleanup Task: Write a cleanup script to automate cleanup of old EC2 snapshots
+- Restore EC2 Volume: Write a program to restore an EC2 volume with the backup snapshot and attach it to the EC2 Instance
+## 14.3 Automation Tasks around Website Monitoring (without AWS)
+- Monitoring: Write a scheduled automation program that monitors the website's health
+- E-Mail Notification: Configure python program to automatically send an email every time the website or server is down
+- Recover: Restart the application and reboot the underlying remote server
+
+## 15. Configuration Management with Ansible(Week-22&23)
+### As a continuation of the projects in all the previous modules, we will use Ansible to further automate and optimize DevOps processes. Ansible, next to Terraform is one of the most popular infrastructure as code and configuration management tools currently used in IT projects.
+## 15.1 Core Concepts and Syntax of Ansible
+- Introduction to Ansible
+- Install & Configure Ansible
+- Setup Managed Server to configure with Ansible
+- Ansible Inventory
+- Ansible ad-hoc Commands
+- Configure AWS EC2 server with Ansible
+- Managing Host Key Checking and SSH keys
+- Ansible Tasks, Play & Playbook
+- Ansible Modules
+- Ansible Collections & Ansible Galaxy
+- Ansible Variables - to make your Playbook customizable
+- Troubleshooting in Ansible
+- Conditionals
+- Privilege Escalation
+- Ansible Configuration - Default Inventory File
+## 15.2 Learn most common Ansible modules with hands-on demos:
+- Project: Deploy Nodejs Application
+- Project: Deploy Nexus
+- Configure servers with different Linux distributions on AWS and Digital Ocean platforms
+### In these projects, we will install tools on a server, configure applications, work with a file system, move static files between machines, etc.
+### Essentially you will learn how to map and translate shell scripts and   commands into Ansible Playbooks to automate various common tasks in general.
+## 15.3 More Advanced Topics & Integrations with other Technologies
+- Dynamic Inventory for EC2 Servers
+- Ansible Roles - to make your Ansible content more reusable and modular for better maintenance
+- Project: Ansible & Terraform
+- Project: Run Docker applications
+- Project: Deploying Applications in Kubernetes
+- Project: Run Ansible from Jenkins Pipeline
+### So, you don't learn Ansible just as a standalone tool in this bootcamp, but rather integrated in different technologies, like Docker, K8s, Terraform, Jenkins, AWS and so on, in various real world use cases, as it builds on the previous modules in the bootcamp!
+
+## 16. Monitoring with Prometheus(Week-24&25)
+- Introduction to Monitoring with Prometheus
+- Install Prometheus Stack in Kubernetes
+- Data Visualization with Prometheus UI
+- Introduction to Grafana
+- Alert Rules in Prometheus
+- Create own Alert Rules
+- Introduction to Alertmanager
+- Configure Alertmanager with Email Receiver
+- Trigger Alerts for Email Receiver
+- Monitor Third-Party Applications
+- Deploy Redis Exporter
+- Alert Rules & Grafana Dashboard for Redis
+- Collect & Expose Metrics with Prometheus Client Library
+- Scrape Own Application Metrics & Configure Own Grafana Dashboard
  
  
 
