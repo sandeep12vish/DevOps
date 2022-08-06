@@ -111,17 +111,18 @@
 - Deploy and run an application on Cloud Server
 - Create a Linux User to login to Server (instead of using Root User)
 
-Artifact Repository Manager with Nexus(Week-6)
-What is an Artifact Repository Manager?
-Install and run Nexus on Cloud Server
-Different Repository Types (proxy, hosted, etc.) explained
-Different Repository Formats (maven, docker, npm, etc.) explained
-Upload Jar File to Nexus (maven and gradle projects)
-Nexus API and Repository URLs
-Blob stores
-Browsing Components - Components vs Assets
-Cleanup Policies
-Scheduled Tasks
+## 6. Artifact Repository Manager with Nexus(Week-6)
+- What is an Artifact Repository Manager?
+- Install and run Nexus on Cloud Server
+- Different Repository Types (proxy, hosted, etc.) explained
+- Different Repository Formats (maven, docker, npm, etc.) explained
+- Upload Jar File to Nexus (maven and gradle projects)
+- Nexus API and Repository URLs
+- Blob stores
+- Browsing Components - Components vs Assets
+- Cleanup Policies
+- Scheduled Tasks
+
 Containers with Docker(Week-7&8)
 What is a Container?
 Docker Components and architecture explained
