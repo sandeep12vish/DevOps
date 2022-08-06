@@ -123,26 +123,26 @@
 - Cleanup Policies
 - Scheduled Tasks
 
-Containers with Docker(Week-7&8)
-What is a Container?
-Docker Components and architecture explained
-Docker vs. Virtual Machine
-Main Docker Commands
-Debugging a Docker Container
-Demo Project Overview - Docker in Practice (Nodejs App with MongoDB and MongoExpress UI)
-Developing with Containers
-Docker Compose - Running multiple services
-Dockerfile - Building our own Docker Image
-Private Docker Repository - Pushing our built Docker Image into a private Registry on AWS
-Deploy containerized app
-Docker Volumes - Persist data in Docker
-Volumes Demo - Configure persistence for our demo project
-Docker Best Practices
-Docker & Nexus
-Create Docker Images Repository on Nexus
-Push/Pull Docker Image from/to Nexus Repository Manager
-Install Nexus with Docker
-Configure insecure repositories in Docker Engine
+## 6. Containers with Docker(Week-7&8)
+- What is a Container?
+- Docker Components and architecture explained
+- Docker vs. Virtual Machine
+- Main Docker Commands
+- Debugging a Docker Container
+- Demo Project Overview - Docker in Practice (Nodejs App with MongoDB and MongoExpress UI)
+- Developing with Containers
+- Docker Compose - Running multiple services
+- Dockerfile - Building our own Docker Image
+- Private Docker Repository - Pushing our built Docker Image into a private Registry on AWS
+- Deploy containerized app
+- Docker Volumes - Persist data in Docker
+- Volumes Demo - Configure persistence for our demo project
+- Docker Best Practices
+- Docker & Nexus
+- Create Docker Images Repository on Nexus
+- Push/Pull Docker Image from/to Nexus Repository Manager
+- Install Nexus with Docker
+- Configure insecure repositories in Docker Engine
  
 Build Automation - CI/CD with Jenkins(Week-9&10)
 What is Build Automation? What is Jenkins?
