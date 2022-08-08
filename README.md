@@ -363,7 +363,7 @@
 - Project: Run Ansible from Jenkins Pipeline
 ### So, you don't learn Ansible just as a standalone tool in this bootcamp, but rather integrated in different technologies, like Docker, K8s, Terraform, Jenkins, AWS and so on, in various real world use cases, as it builds on the previous modules in the bootcamp!
 
-## 16. Monitoring with Prometheus(Week-24&25)
+## 16. Monitoring with Prometheus(Week-24 & 25)
 - Introduction to Monitoring with Prometheus
 - Install Prometheus Stack in Kubernetes
 - Data Visualization with Prometheus UI
