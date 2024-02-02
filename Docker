@@ -2,3 +2,8 @@ Docker main commands
 $ docker pull image-name (example: $ docker pull redis) it will download the image redis
 $ docker run redis // start the redis application. If images will available locally then simply it run, else download and run
 $ docker ps // Show the list of running images
+$ docker stop image-id // Stop the application
+$ docker start image-id // Start the application
+$ docker run -d image-name (example: $ docker run -d redid) // The application will run in de-attached mode
+
+// Port binding
