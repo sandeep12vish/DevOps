@@ -1,9 +1,13 @@
 Docker main commands
 $ docker pull image-name (example: $ docker pull redis) it will download the image redis
-$ docker run redis // start the redis application. If images will available locally then simply it run, else download and run
+$ docker run redis // start the redis application. If images are available locally then simply run, else download, and run
 $ docker ps // Show the list of running images
 $ docker stop image-id // Stop the application
 $ docker start image-id // Start the application
-$ docker run -d image-name (example: $ docker run -d redid) // The application will run in de-attached mode
+$ docker run -d image-name (example: $ docker run -d redid) // The application will run in a de-attached mode
 
-// Port binding
+// Port binding 
+CONTAINER Port VS HOST Port
+- Multiple containers can run on your host machine
+- Your laptop has only certain ports available
+- conflict when the same port on the host machine
