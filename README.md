@@ -1,8 +1,25 @@
 # DevOps Roadmap
 ## 1. Introduction to DevOps ( Week-1)
   - What is DevOps?
+DevOps is a set of practices and a culture that brings software development (Dev) and IT operations (Ops) closer together. Traditionally, developers wrote code and handed it off to operations teams to deploy and maintain, which often caused delays and finger-pointing. DevOps breaks down that wall by having teams share responsibility for building, testing, releasing, and running software.
+		
   - Roles and Responsibilities of a DevOps Engineer
+ 	1. CI/CD pipelines: Automate building, testing, and deploying code (Jenkins, GitLab CI, GitHub Actions)
+	2. Infrastructure as code: Define servers and networks in version-controlled files (Terraform, Ansible)
+	3. Containers and orchestration: Package and run apps consistently (Docker, Kubernetes)
+	4. Cloud management: Provision and manage AWS, Azure, or GCP resources
+	5. Monitoring: Track metrics, logs, and alerts (Prometheus, Grafana)
+	6. Security: Build security checks into the pipeline (DevSecOps)
+	7. Incident response: Restore service fast and learn from failures
+  
   - How DevOps fits in the whole Software Development lifecycle
+    Plan: Shared goals and early operational requirements
+	Design: Infrastructure as code (Terraform)
+	Develop: Version control and code reviews (Git)
+	Test: Automated tests and security scans in the pipeline
+	**Release and Deploy:** CI/CD pipelines, canary or blue-green releases (Jenkins, Argo CD, Kubernetes)
+	**Operate:** Configuration management and incident response (Ansible, PagerDuty)
+	**Monitor:** Metrics, logs, and alerts that feed back into planning (Prometheus, Grafana) 
 
 ## 2. Operating Systems and Linux Basics ( Week-2)
   ### 2.1 Introduction to Operating Systems
