@@ -13,13 +13,14 @@ DevOps is a set of practices and a culture that brings software development (Dev
 	7. Incident response: Restore service fast and learn from failures
   
   - How DevOps fits in the whole Software Development lifecycle
-    Plan: Shared goals and early operational requirements
-	Design: Infrastructure as code (Terraform)
-	Develop: Version control and code reviews (Git)
-	Test: Automated tests and security scans in the pipeline
-	**Release and Deploy:** CI/CD pipelines, canary or blue-green releases (Jenkins, Argo CD, Kubernetes)
-	**Operate:** Configuration management and incident response (Ansible, PagerDuty)
-	**Monitor:** Metrics, logs, and alerts that feed back into planning (Prometheus, Grafana) 
+  
+    1. Plan: Shared goals and early operational requirements
+	2. Design: Infrastructure as code (Terraform)
+	3. Develop: Version control and code reviews (Git)
+	4. Test: Automated tests and security scans in the pipeline
+	5. Release and Deploy: CI/CD pipelines, canary or blue-green releases (Jenkins, Argo CD, Kubernetes)
+	6. Operate: Configuration management and incident response (Ansible, PagerDuty)
+	7. Monitor: Metrics, logs, and alerts that feed back into planning (Prometheus, Grafana) 
 
 ## 2. Operating Systems and Linux Basics ( Week-2)
   ### 2.1 Introduction to Operating Systems
